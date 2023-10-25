@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "35NvbCfhumY3VTHtjpYvuGl2q9LubQwITXkjq7wd+d6//4sS/LtJOjaUPxyXkscDUJwtHZ8iAv1GNUzfKnaI0w==",
+  "dgSpecHash": "Im0MpR2VDv2cPiWyPbaBG1GGeH/g0NqQEsYJD7fC9/i+Fx7w5A2hOQSnMat5gShH57Z+o1q4i2B7TiY+8y06Vg==",
   "success": true,
-  "projectFilePath": "C:\\aspnetcore\\StocksAppXunitRemake\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

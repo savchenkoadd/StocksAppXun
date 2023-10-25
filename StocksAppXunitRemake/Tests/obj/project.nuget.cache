@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R7qPB4ThVaLdSisZ6QztRFxPvdRYy4KklQaS2RB9dx3V3dUruZ4tEWRnqjAe2sVbwoyXVEn8mpqpk2fdUPO3Iw==",
+  "dgSpecHash": "mw0xEzwWI5iazHeLtIh0oMBLGMGBhlDAmWNbj0ALNBpSeC2fdITN9x0j8zAJWg23XCVjZSikI3UBNtfHzm4ErA==",
   "success": true,
-  "projectFilePath": "C:\\aspnetcore\\StocksAppXunitRemake\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artem\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Artem\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

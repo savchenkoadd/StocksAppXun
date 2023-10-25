@@ -505,11 +505,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\aspnetcore\\StocksAppXunitRemake\\StocksApp\\StocksApp.csproj",
+      "projectUniqueName": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\StocksApp\\StocksApp.csproj",
       "projectName": "StocksApp",
-      "projectPath": "C:\\aspnetcore\\StocksAppXunitRemake\\StocksApp\\StocksApp.csproj",
+      "projectPath": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\StocksApp\\StocksApp.csproj",
       "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-      "outputPath": "C:\\aspnetcore\\StocksAppXunitRemake\\StocksApp\\obj\\",
+      "outputPath": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\StocksApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -530,14 +530,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\aspnetcore\\StocksAppXunitRemake\\Options\\Options.csproj": {
-              "projectPath": "C:\\aspnetcore\\StocksAppXunitRemake\\Options\\Options.csproj"
+            "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\Options\\Options.csproj": {
+              "projectPath": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\Options\\Options.csproj"
             },
-            "C:\\aspnetcore\\StocksAppXunitRemake\\ServiceContracts\\ServiceContracts.csproj": {
-              "projectPath": "C:\\aspnetcore\\StocksAppXunitRemake\\ServiceContracts\\ServiceContracts.csproj"
+            "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\ServiceContracts\\ServiceContracts.csproj": {
+              "projectPath": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\ServiceContracts\\ServiceContracts.csproj"
             },
-            "C:\\aspnetcore\\StocksAppXunitRemake\\Services\\Services.csproj": {
-              "projectPath": "C:\\aspnetcore\\StocksAppXunitRemake\\Services\\Services.csproj"
+            "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\Services\\Services.csproj"
             }
           }
         }

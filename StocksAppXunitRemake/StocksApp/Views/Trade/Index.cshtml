@@ -1,0 +1,58 @@
+﻿@model StockTrade
+
+@{
+	ViewBag.Title = "Trading";
+	ViewBag.CurrentUrl = "~/Trade/Index";
+}
+
+
+<form method="POST">
+	<div class="box trading-panel">
+
+		<div class="flex trading-panel-flex">
+			<div id="stock-price-panel">
+
+				<div class="stock">
+					<h1 class="stock-title">@Model.StockName (@Model.StockSymbol)</h1>
+					<h2 class="stock-price"><small class="text-grey">$</small> <span class="price">@Model.Price.ToString("N")</span></h2>
+				</div>
+
+				<div class="date"></div>
+
+			</div>
+
+
+			<div class="order-panel">
+
+
+				<input type="hidden" value="@Model.Price" name="Price">
+				<input type="hidden" value="@Model.StockSymbol" name="StockSymbol">
+				<input type="hidden" value="@Model.StockName" name="StockName">
+
+
+				<h3>New order</h3><br />
+
+				<label for="order-stock-quantity">Quantity:</label><br />
+				<input type="number" min="1" max="1000" id="order-stock-quantity" value="1" name="Quantity" class="form-input mb" required>
+
+				<button type="submit" formaction="~/Trade/SellOrder" class="button button-red-back trading-button sell-button">
+					<i class="fa-solid fa-arrow-down"></i>
+					<span>Sell</span>
+				</button>
+
+				<button type="submit" formaction="~/Trade/BuyOrder" class="button button-green-back trading-button buy-button">
+					<i class="fa-solid fa-arrow-up"></i>
+					<span>Buy</span>
+				</button>
+			</div>
+
+		</div>
+	</div>
+</form>
+
+
+@section Scripts {
+	@* import the FinnhubScript.js file to update the price *@
+	<script src="~/Scripts/FinnhubScript.js">
+	</script>
+}

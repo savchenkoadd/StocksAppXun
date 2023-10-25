@@ -12,7 +12,7 @@ namespace StocksApp
 
 			builder.Services.AddControllersWithViews();
 			builder.Services.AddScoped<IFinnhubService, FinnhubService>();
-			builder.Services.AddScoped<IStocksService, StocksService>();
+			builder.Services.AddSingleton<IStocksService, StocksService>();
 			builder.Services.AddHttpClient();
 			builder.Services.Configure<FinnhubOptions>(
 					builder.Configuration.GetSection("FinnhubOptions")

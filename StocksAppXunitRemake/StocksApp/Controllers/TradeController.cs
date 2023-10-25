@@ -3,9 +3,12 @@ using Microsoft.Extensions.Options;
 using Options;
 using ServiceContracts;
 using StocksApp.ViewModels;
+using ServiceContracts.DTO.SellOrder;
+using ServiceContracts.DTO.BuyOrder;
 
 namespace StocksApp.Controllers
 {
+	[Route("[controller]")]
 	public class TradeController : Controller
 	{
 		private readonly FinnhubOptions _finnhubOptions;
@@ -23,8 +26,9 @@ namespace StocksApp.Controllers
 			_finnhubService = finnhubService;
 		}
 
-		[Route("{ticker?}")]
-		public async Task<IActionResult> StockPage(string? ticker)
+		[Route("/")]
+		[Route("[action]")]
+		public async Task<IActionResult> Index(string? ticker)
 		{
 			if (ticker is null)
 			{
@@ -32,6 +36,38 @@ namespace StocksApp.Controllers
 			}
 
 			return View(await ParseStockTrade(ticker));
+		}
+
+		[HttpPost]
+		[Route("[action]")]
+		public async Task<IActionResult> SellOrder(StockTrade stockTrade)
+		{
+			await _stocksService.CreateSellOrder(new SellOrderRequest() { DateAndTimeOfOrder = DateTime.Now, Price = stockTrade.Price, Quantity = stockTrade.Quantity, StockName = stockTrade.StockName, StockSymbol = stockTrade.StockSymbol });
+
+			return RedirectToAction("Orders");
+		}
+
+		[HttpPost]
+		[Route("[action]")]
+		public async Task<IActionResult> BuyOrder(StockTrade stockTrade)
+		{
+			await _stocksService.CreateBuyOrder(new BuyOrderRequest() { OrderDateTime = DateTime.Now, Price = stockTrade.Price, Quantity = stockTrade.Quantity, StockName = stockTrade.StockName, StockSymbol = stockTrade.StockSymbol });
+
+			var list = await _stocksService.GetBuyOrders();
+
+			return RedirectToAction("Orders");
+		}
+
+		[Route("[action]")]
+		public async Task<IActionResult> Orders()
+		{
+			Orders orders = new Orders()
+			{
+				BuyOrders = await _stocksService.GetBuyOrders(),
+				SellOrders = await _stocksService.GetSellOrders()
+			};
+
+			return View(orders);
 		}
 
 		private async Task<StockTrade> ParseStockTrade(string stockSymbol)

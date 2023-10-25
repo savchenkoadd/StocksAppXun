@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\aspnetcore\\StocksAppXunitRemake\\Options\\Options.csproj": {}
+    "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\Options\\Options.csproj": {}
   },
   "projects": {
-    "C:\\aspnetcore\\StocksAppXunitRemake\\Options\\Options.csproj": {
+    "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\Options\\Options.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\aspnetcore\\StocksAppXunitRemake\\Options\\Options.csproj",
+        "projectUniqueName": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\Options\\Options.csproj",
         "projectName": "Options",
-        "projectPath": "C:\\aspnetcore\\StocksAppXunitRemake\\Options\\Options.csproj",
+        "projectPath": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\Options\\Options.csproj",
         "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-        "outputPath": "C:\\aspnetcore\\StocksAppXunitRemake\\Options\\obj\\",
+        "outputPath": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\Options\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

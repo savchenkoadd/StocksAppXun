@@ -349,7 +349,6 @@
     border-right: 1px solid #bfbfbf;
 }
 
-
 .box
 {
     margin: 10px 20px;
@@ -555,34 +554,39 @@ a.link-hover:hover
 .stock
 {
     margin-top: 20px;
+    width: fit-content;
 }
 
 .stock-title
 {
     font-size: 2.2em;
     color: #0a8ac6;
+    width: fit-content;
 }
 
-.stock-price
-{
+.stock-price {
     font-size: 4.5em;
+    width: fit-content;
 }
 
 .trading-panel
 {
+    width: 80%;
     background-color: #f0f0f0;
 }
 
 .trading-panel-flex
 {
-    flex-direction: column;
+    flex-direction: row;
 }
 
+#app-title-div {
+    width: fit-content;
+}
 
 #stock-price-panel
 {
-    width: 100%;
-    max-width: 100%;
+    width: fit-content;
     flex: 1 0 auto;
     padding-right: 20px;
 }
@@ -681,4 +685,15 @@ a.link-hover:hover
     {
         flex-direction: row;
     }
+}
+
+.order-panel {
+    height: 200px;
+    width: 30%;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

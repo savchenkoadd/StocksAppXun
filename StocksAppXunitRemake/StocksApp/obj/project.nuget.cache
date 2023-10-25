@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V3dh09GFYU8sth2yMuAl55r+3+MyRkTIgNV6uST6lt8YKCDan3kgJHaeX1XzI9S8V8iwlo27gi2U9hyGvrhTBA==",
+  "dgSpecHash": "5sHDEhFlMkPWYoxolcz+D+m/4N2kca8jz/qiuSVlYsQDqwVS6++tWmN81qUPmfwqGLDaWH1xZ+CXMwZeSkPYJQ==",
   "success": true,
-  "projectFilePath": "C:\\aspnetcore\\StocksAppXunitRemake\\StocksApp\\StocksApp.csproj",
+  "projectFilePath": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\StocksApp\\StocksApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Artem\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Artem\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

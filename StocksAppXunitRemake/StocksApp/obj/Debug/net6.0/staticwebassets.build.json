@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "molPagVuvEPk7fzZfa2rJgD4CVdSSLyXUQUgSdrmYqk=",
+  "Hash": "DSnW92vRdz6z6OsQRQr+Nk6wGL4LKbZGw1qJMXUsWlc=",
   "Source": "StocksApp",
   "BasePath": "_content/StocksApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "StocksApp\\wwwroot",
       "Source": "StocksApp",
-      "ContentRoot": "C:\\aspnetcore\\StocksAppXunitRemake\\StocksApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\StocksApp\\wwwroot\\",
       "BasePath": "_content/StocksApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\aspnetcore\\StocksAppXunitRemake\\StocksApp\\wwwroot\\StyleSheet.css",
+      "Identity": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\StocksApp\\wwwroot\\StyleSheet.css",
       "SourceId": "StocksApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\aspnetcore\\StocksAppXunitRemake\\StocksApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\StocksApp\\wwwroot\\",
       "BasePath": "_content/StocksApp",
       "RelativePath": "StyleSheet.css",
       "AssetKind": "All",

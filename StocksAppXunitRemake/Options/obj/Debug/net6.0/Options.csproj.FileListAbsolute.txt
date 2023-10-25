@@ -9,3 +9,14 @@ C:\aspnetcore\StocksAppXunitRemake\Options\obj\Debug\net6.0\Options.dll
 C:\aspnetcore\StocksAppXunitRemake\Options\obj\Debug\net6.0\refint\Options.dll
 C:\aspnetcore\StocksAppXunitRemake\Options\obj\Debug\net6.0\Options.pdb
 C:\aspnetcore\StocksAppXunitRemake\Options\obj\Debug\net6.0\ref\Options.dll
+C:\Users\Artem\Documents\GitHub\StocksAppXun\StocksAppXunitRemake\Options\bin\Debug\net6.0\Options.deps.json
+C:\Users\Artem\Documents\GitHub\StocksAppXun\StocksAppXunitRemake\Options\bin\Debug\net6.0\Options.dll
+C:\Users\Artem\Documents\GitHub\StocksAppXun\StocksAppXunitRemake\Options\bin\Debug\net6.0\Options.pdb
+C:\Users\Artem\Documents\GitHub\StocksAppXun\StocksAppXunitRemake\Options\obj\Debug\net6.0\Options.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\Documents\GitHub\StocksAppXun\StocksAppXunitRemake\Options\obj\Debug\net6.0\Options.AssemblyInfoInputs.cache
+C:\Users\Artem\Documents\GitHub\StocksAppXun\StocksAppXunitRemake\Options\obj\Debug\net6.0\Options.AssemblyInfo.cs
+C:\Users\Artem\Documents\GitHub\StocksAppXun\StocksAppXunitRemake\Options\obj\Debug\net6.0\Options.csproj.CoreCompileInputs.cache
+C:\Users\Artem\Documents\GitHub\StocksAppXun\StocksAppXunitRemake\Options\obj\Debug\net6.0\Options.dll
+C:\Users\Artem\Documents\GitHub\StocksAppXun\StocksAppXunitRemake\Options\obj\Debug\net6.0\refint\Options.dll
+C:\Users\Artem\Documents\GitHub\StocksAppXun\StocksAppXunitRemake\Options\obj\Debug\net6.0\Options.pdb
+C:\Users\Artem\Documents\GitHub\StocksAppXun\StocksAppXunitRemake\Options\obj\Debug\net6.0\ref\Options.dll

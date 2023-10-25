@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MYpEH7TNL5ZAEQIab/xtGB+mSmnpD5q8Sg3E2vyAUjZw2iXewWZQQA3jujkzyLVDqFSO8BbQwzf+pLDsrlJKtQ==",
+  "dgSpecHash": "2/86kgV4PfGJ7ATc9Ob4tTM7ctGWTJoUPY3fEZpEX1mA9egyalPgEEBdJDm1se5We7s3r1FWK25UWe9cuMi3Hw==",
   "success": true,
-  "projectFilePath": "C:\\aspnetcore\\StocksAppXunitRemake\\ServiceContracts\\ServiceContracts.csproj",
+  "projectFilePath": "C:\\Users\\Artem\\Documents\\GitHub\\StocksAppXun\\StocksAppXunitRemake\\ServiceContracts\\ServiceContracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
